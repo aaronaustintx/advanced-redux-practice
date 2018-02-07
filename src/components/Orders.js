@@ -1,4 +1,5 @@
 import React from "react";
+import {connect} from "react-redux";
 
 function Orders(props) {
   return ( 
@@ -26,4 +27,11 @@ function Orders(props) {
     </div>);
 }
 
-export default Orders;
+
+function putStateInProps(state){
+  return {
+      newOrders: state.newOrders
+  }
+}
+let orderState = connect(putStateInProps)(Orders);
+export default orderState;

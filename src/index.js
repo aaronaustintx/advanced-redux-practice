@@ -12,13 +12,11 @@ import {Provider} from 'react-redux';
 //  document.getElementById('root')
 // );
 
-
-
 const {
 dateTime,
 // newComments,
-newTasks,
-newOrders,
+// newTasks,
+// newOrders,
 tickets,
 orders,
 taskItem,
@@ -31,9 +29,9 @@ ReactDOM.render(
     taskItem={taskItem}
     dateTime={dateTime}
     // newComments={newComments}
-    newTasks={newTasks}
-    newOrders={newOrders}
-    tickets={tickets}
+    // newTasks={newTasks}
+    // newOrders={newOrders}
+    // tickets={tickets}
     orders={orders} 
     messages={messages}
     tasks={tasks}

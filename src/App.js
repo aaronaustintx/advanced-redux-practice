@@ -37,14 +37,15 @@ function App(props) {
             <div className="row">
               {/* <Comments newComments={props.newComments} /> */}
               <Comments />
-              <Tasks newTasks={props.newTasks} />
-              <Orders newOrders={props.newOrders} />
-              <Tickets tickets={props.tickets} />
+              <Tasks />
+              <Orders />
+              <Tickets />
             </div>
             <AreaChart />
             <div className="row">
               <DonutChart />
               <div className="col-lg-4">
+                {/* <TasksPanel tasks={props.tasks} /> */}
                 <TasksPanel tasks={props.tasks} />
               </div>
               <div className="col-lg-4">
